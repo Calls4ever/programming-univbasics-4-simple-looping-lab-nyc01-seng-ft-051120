@@ -11,14 +11,12 @@ i=0
 end
 end
 
-def output_array(message, n)
+def output_array(array)
   i=0
-  array=[]
-  until i==n
-    array[i]=message
+  until i==array.length-1
+    puts array[i]
     i +=1
   end
-  puts array
 end
 
 def return_string_array(array)
